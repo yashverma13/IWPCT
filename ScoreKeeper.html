@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<style type="text/css">
+		.winner {
+	color:green;
+}
+body{
+background: background: #23074d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#p1Display{
+margin-left: 250px;
+}
+p{
+margin-left: 260px;
+}
+#Hello
+{
+	margin-left: 100px;
+	color: orange;
+}
+.container
+{
+	margin-left: 500px;
+}
+.One{
+	margin-left: 200px;
+}
+.Two{
+	margin-left: 190px;
+}
+.Three{
+	margin-left: 280px;
+}
+
+	</style>
+
+</head>
+<body>
+<div class="container">
+	<h1 id='Hello'><em><strong>ScoreKeeper's Game</strong></em></h1>
+<h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+
+<p>Playing to: <span>5</span></p>
+<div class="One">
+<input type="number">
+</div>
+<br>
+<br>
+<div class="Two">
+<button id="p1" class="btn btn-info">Player One</button>
+<button id="p2" class="btn btn-warning">Player Two</button>
+</div>
+<br>
+<div class="Three">
+<button id="reset" class="btn btn-danger">Reset</button>
+</div>
+</div>
+<script type="text/javascript" src="scorekeeper.js"></script>
+</body>
+</html>

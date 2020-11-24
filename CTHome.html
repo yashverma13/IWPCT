@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GameZone</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap1.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<style type="text/css">
+	#header {background: url(https://tse1.mm.bing.net/th?id=OIP.ytWFOK-MPqUCGKK94EzzvAHaE7&pid=Api&P=0&w=251&h=168);
+		background-size: cover;
+
+	}
+		.navbar-right{
+   		margin-right: 10px;
+   	}
+</style>
+<body onunload="myfunc4()">
+
+	<nav class="navbar navbar-dark bg-dark">
+		<div class="container">
+		<a href="#" class="navbar-brand"><i class="fas fa-align-justify"></i> Game Hub</a>
+	
+		</div>
+	</nav>
+	<section id="header" class="jumbotron text-center ">
+		<h1 class="display-3">Game Hub</h1>
+		<p class="lead"><h5>Welcome!! to Game Hub</h5></p>
+
+	</section>
+	<section id="gallery">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 mb-4">
+			<div class="card">
+				<img class="card-img-top" src="a(2).png" height="220px" width="350px" onmouseover="big(this)" onmouseout="normal(this)">
+
+			    <div class="card-body">
+			    	<h5 class="card-title">Educational Game</h5> 
+                    <p class="card-text">
+                      This is a RGB Color Game in which their are two modes on the basis of difficulities.
+                     </p>
+                    <a href="colorpro.html" class="btn btn-outline-success btn-sm">Let's Play</a>
+			    </div>
+			</div>
+			</div>
+			<div class="col-lg-4 mb-4">
+			<div class="card">
+				<img class="card-img-top" src="a(3).png" height="220px" width="350px"onmouseover="big(this)" onmouseout="normal(this)">
+
+			    <div class="card-body">
+			    	<h5 class="card-title">Musical Game</h5> 
+                    <p class="card-text">This is mainly a patatab game in which every keyboard botton have their own response.</p>
+                    <a href="patatap.html" class="btn btn-outline-success btn-sm">Let's Play</a>
+                   
+			    </div>
+			</div>
+			</div>
+			<div class="col-lg-4 mb-4">
+			<div class="card">
+				<img class="card-img-top" src="a(1).png" height="220px" width="350px" onmouseover="big(this)" onmouseout="normal(this)">
+			    
+			    <div class="card-body">
+			    	<h5 class="card-title">Score Game</h5> 
+                    <p class="card-text">This is mainly a ScoreCard Game in which two teams are participated</p>
+                    <a href="ScoreKeeper.html" class="btn btn-outline-success btn-sm">Let's Play</a>
+                   
+			    </div>
+			</div>
+			</div>
+			</div>
+		</div>
+	</section>
+    <script>
+		function big(x) {
+			// body...
+			x.style.height="400px";
+			x.style.width="350px";
+		}
+		function normal(x){
+			x.style.height="220px";
+			x.style.width="350px";
+		}
+		function myfunc4(){
+			alert("Thanks for visiting");
+		}
+	</script>
+</body>
+</html>
