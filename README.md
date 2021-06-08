@@ -22,6 +22,6 @@ c) Score Game
 4-You can open any game and you just play that game.
  
 Team Members:
-Yash Verma - Developer
-Prince Varshney - Data Set and Content
-Wantakumar Oinam - Desining and Testing
+Yash Verma - Developer. 
+Prince Varshney - Data Set and Content. 
+Wantakumar Oinam - Desining and Testing. 
